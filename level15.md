@@ -11,6 +11,8 @@ Il y a deux images avec leurs textes alternatifs(alt), "EN" et "DE" qui ne sont 
 Dans l'url suivant, X change en fonction de l'image qu'on touche: "https://rfi.warchall.net/index.php?lang=X"
 
 X peut être soit "en" ou "de". Alors pour faire une injection LFI (Local File Inclusion), je change X par: php://filter/convert.base64-encode/resource=solution.php
+
+On appelle cela un wrapper
 ```sh
 https://rfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resource=solution.php
 ```
