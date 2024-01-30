@@ -17,4 +17,4 @@ https://lfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resou
 
 * Un code en base 64 apparaît alors, que je copierai et décoderai
 
-* Un fichier php apparaît et la solution s'y trouvera
+Un fichier php apparaît et la solution s'y trouvera
